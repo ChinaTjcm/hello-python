@@ -3,6 +3,11 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+/venv
+/.idea
+/src/logs
+/src/*.log
+__pycache__
 
 # Other files and folders
 .settings/
