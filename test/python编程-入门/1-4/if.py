@@ -1,5 +1,3 @@
-import print as print
-
 magicians = ['alice', 'david', 'carolina']
 for one in magicians:
     if one == 'alice':

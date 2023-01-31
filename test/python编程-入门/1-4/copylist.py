@@ -1,5 +1,3 @@
-import print as print
-
 my_friends = ['alice', 'david', 'carolina']
 her_friends = my_friends[:]
 
