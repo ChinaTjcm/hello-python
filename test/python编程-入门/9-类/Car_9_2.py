@@ -23,6 +23,6 @@ class Car:
 
 
 my_car = Car('奔驰', 'S500', 2023)
-my_car.update_odometer(23_500)
+my_car.update_odometer(3200)
 my_car.increment_odometer(100)
 print(f"我的车最新公里数，应该是 3300 ，现在输出为：{my_car.odometer_reading}")
