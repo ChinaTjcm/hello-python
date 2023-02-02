@@ -1,6 +1,4 @@
 import os
-import sys
-
 
 # 获取项目根目录
 def getRootPath():
@@ -10,6 +8,9 @@ def getRootPath():
     rootPath = curPath[:curPath.find('hello-python') + len('hello-python')]
     return rootPath
 
+
+# 当前文件的路径
+print(' 当前文件的路径: ' + os.path.abspath(os.path.dirname(__file__)))
 
 # 绝对路径
 # git 地址本地路径
@@ -25,5 +26,3 @@ with open(file_path) as file_object:
     contents = file_object.read()
 print(contents)
 
-# 当前文件的路径
-print(' 当前文件的路径: ' + os.path.abspath(os.path.dirname(__file__)))
