@@ -37,25 +37,28 @@ class ElectricCar(Car_9_2.Car):
         print(f"{self.make} {self.model} 电车没有油箱")
 
 
-my_tesla = ElectricCar('tesla', 'model_s', 2023)
-# 获取当前电量
-my_tesla.describe_battery()
-# 重写父类
-my_tesla.fill_gas_tank()
-# 通过电量计算里程数
-range_value = my_tesla.battery.get_range()
-print("\t")
-print("\t")
-# 统一展示
-# f 拼接
-print(f'{my_tesla.get_descriptive_name()}  当前电量：{my_tesla.describe_battery()} 可以行驶：{str(range_value)} km')
-# format 拼接
-print(' {} 当前电量：{} 可以行驶：{} km'.format(
-    my_tesla.get_descriptive_name(),
-    my_tesla.describe_battery(),
-    str(range_value)))
-# 百分号 拼接
-print(' %s 当前电量：%s 可以行驶：%s km' % (
-    my_tesla.get_descriptive_name(),
-    my_tesla.describe_battery(),
-    str(range_value)))
+def main():
+    my_tesla = ElectricCar('tesla', 'model_s', 2023)
+    # 获取当前电量
+    my_tesla.describe_battery()
+    # 重写父类
+    my_tesla.fill_gas_tank()
+    # 通过电量计算里程数
+    range_value = my_tesla.battery.get_range()
+    print("\t")
+    print("\t")
+    # 统一展示
+    # f 拼接
+    print(f'{my_tesla.get_descriptive_name()}  当前电量：{my_tesla.describe_battery()} 可以行驶：{str(range_value)} km')
+    # format 拼接
+    print(' {} 当前电量：{} 可以行驶：{} km'.format(
+        my_tesla.get_descriptive_name(),
+        my_tesla.describe_battery(),
+        str(range_value)))
+    # 百分号 拼接
+    print(' %s 当前电量：%s 可以行驶：%s km' % (
+        my_tesla.get_descriptive_name(),
+        my_tesla.describe_battery(),
+        str(range_value)))
+
+# main()
