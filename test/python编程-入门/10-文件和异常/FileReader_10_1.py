@@ -1,5 +1,6 @@
 import os
 
+
 # 获取项目根目录
 def getRootPath():
     # 获取文件目录
@@ -23,6 +24,5 @@ print(contents)
 root_path = getRootPath()
 file_path = root_path + "\\test\\python编程-入门\\file\\pi_digits.txt"
 with open(file_path) as file_object:
-    contents = file_object.read()
-print(contents)
-
+    for line in file_object:
+        print(line.rstrip())
