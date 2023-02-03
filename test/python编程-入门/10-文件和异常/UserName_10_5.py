@@ -7,7 +7,6 @@ print('欢迎客户')
 
 # 获取数字方法
 def get_store_num():
-
     file_path = getRootPath() + '\\test\\python编程-入门\\file\\10\\username.json'
 
     num = ''
@@ -43,5 +42,6 @@ def test():
         print('程序异常')
 
     print('您最喜欢的数字是:' + str(num))
+
 
 test()
