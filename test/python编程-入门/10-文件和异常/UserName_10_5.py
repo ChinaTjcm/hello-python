@@ -33,13 +33,11 @@ def save_store_num():
 def test():
     # 1. 获取客户信息，看是否存在
     num = get_store_num()
-    try:
-        if num:
-            pass
-        else:
-            num = save_store_num()
-    except Exception:
-        print('程序异常')
+    if num:
+        pass
+    else:
+        # 不存在
+        num = save_store_num()
 
     print('您最喜欢的数字是:' + str(num))
 
