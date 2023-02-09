@@ -47,6 +47,12 @@ https://jingyan.baidu.com/article/495ba841c6961279b30edeaa.html
 
 
 
+### 3.1 什么是 python 虚拟环境
+
+https://juejin.cn/post/6844903960449384455
+
+用 venv 就行，不用过于复杂！！
+
 
 
 
