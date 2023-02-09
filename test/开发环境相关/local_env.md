@@ -14,9 +14,39 @@ https://blog.csdn.net/alphaqt/article/details/123141555
 https://www.ycpai.cn/python/jFRWXcQ9.html
 ENABLE_USER_SITE = True
 
+### （pip够用--可做知识扩展）Anaconda3 安装及修改源
+
+https://blog.csdn.net/qq_43674360/article/details/123396415
+
+pip 和  conda 的区别
+
+https://blog.csdn.net/taoqick/article/details/56284364
+
+
+
+
+
 
 
 ## 2. 开发工具 idea 
 构建 python 开发工具
 http://www.360doc.com/content/22/1117/10/81066819_1056353666.shtml
+
+idea 命令行配置管理员
+
+https://blog.csdn.net/weixin_55024483/article/details/124783726
+
+windows cmd 管理员运行快捷键
+
+https://jingyan.baidu.com/article/495ba841c6961279b30edeaa.html
+
+
+
+## 3、开发相关
+
+
+
+
+
+
 
