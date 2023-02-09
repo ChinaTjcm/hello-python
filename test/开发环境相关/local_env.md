@@ -53,7 +53,11 @@ https://juejin.cn/post/6844903960449384455
 
 用 venv 就行，不用过于复杂！！
 
+### 3.2  配置项目代码源--解决 import 无法跳转问题
 
+https://blog.csdn.net/xie_xie_nong/article/details/115324902
+
+暂定 src
 
 
 
