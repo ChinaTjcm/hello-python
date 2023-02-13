@@ -7,8 +7,6 @@
 https://blog.csdn.net/alphaqt/article/details/123141555
 固定修改法，改 python 连接地址
 
-
-
 ### 1.2 pip 本地仓库修改，pip 类似 maven
 
 https://www.ycpai.cn/python/jFRWXcQ9.html
@@ -18,17 +16,12 @@ ENABLE_USER_SITE = True
 
 https://blog.csdn.net/qq_43674360/article/details/123396415
 
-### 1.4 pip 和  conda 的区别
+### 1.4 （pip够用--可做知识扩展）pip 和  conda 的区别
 
 https://blog.csdn.net/taoqick/article/details/56284364
 
+## 二、开发工具 idea
 
-
-
-
-
-
-## 二、开发工具 idea 
 ### 2.1 构建 python 开发工具
 
 http://www.360doc.com/content/22/1117/10/81066819_1056353666.shtml
@@ -41,11 +34,7 @@ https://blog.csdn.net/weixin_55024483/article/details/124783726
 
 https://jingyan.baidu.com/article/495ba841c6961279b30edeaa.html
 
-
-
 ## 三、开发相关
-
-
 
 ### 3.1 什么是 python 虚拟环境
 
